@@ -1,9 +1,10 @@
-﻿using HuarachesSA.Models;
+﻿using HuarachesSA.Modelos.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace HuarachesSA.Controllers
+namespace HuarachesSA.Areas.Inventario.Controllers
 {
+    [Area("Inventario")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
